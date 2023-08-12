@@ -1,0 +1,32 @@
+.TransactionHistorySection{
+        width: 700px;
+        /* border: 1px solid gray; */
+        font-family: 'Roboto', sans-serif;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        padding: 20px;
+        margin-bottom: 30px;
+}
+.transactionHistory{
+border-collapse: collapse;
+    width: 100%;
+    
+}
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    color: darkgray;
+    text-align: center;
+    font-weight: 300;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd62;
+}
+.head th{
+    background-color: rgb(2, 185, 185);
+    color: rgb(255, 255, 255);
+}
